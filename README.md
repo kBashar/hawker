@@ -1,6 +1,11 @@
 
 # hawker
-A python service package to download Bangladeshi Newspaper articles periodically
+A python service package to download Bangladeshi Newspaper articles periodically.
+
+It downloads all latest article from a source and provides an API for latest 
+news. 
+All the sources are from Bangladesh.
+Only the latest articles are first provided. 
 
 ## DAY-1 (22 November 2022)
 
@@ -22,3 +27,5 @@ When the code is run
 3. The service should be resilient of restarts and other incidents
 4. A proxy service should be used to avoid bot detections
 5. At least three Newspaper should be scraped at first phase
+6. Write tests for all code
+7. Try to implement Test driven Development
